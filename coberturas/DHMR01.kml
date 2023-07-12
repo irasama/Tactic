@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="polygonWGS" id="polygonWGS">
+	<SimpleField name="ID" type="string"></SimpleField>
+	<SimpleField name="PROYECTO" type="string"></SimpleField>
+	<SimpleField name="AOI" type="string"></SimpleField>
+	<SimpleField name="PARCELA" type="string"></SimpleField>
+	<SimpleField name="ID_PROY" type="string"></SimpleField>
+</Schema>
+<Folder><name>polygonWGS</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#polygonWGS">
+		<SimpleData name="ID">71</SimpleData>
+		<SimpleData name="PROYECTO">Finca Morrillas</SimpleData>
+		<SimpleData name="AOI">DHMR01</SimpleData>
+		<SimpleData name="PARCELA">Finca Morrillas</SimpleData>
+		<SimpleData name="ID_PROY">DHMR</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-4.79249484466247,38.3560662511041 -4.79249484466247,38.3654325544455 -4.75506000854606,38.3654325544455 -4.75506000854606,38.3560662511041 -4.79249484466247,38.3560662511041</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
